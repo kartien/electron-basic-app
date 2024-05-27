@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" href="styles.css">
+    <title>KartierDev</title>
+    <script src="./renderer.js"></script>
+  </head>
+  <body>
+    <div>
+      <h1>Notepad</h1>
+      <textarea name="" id="note" placeholder="Write the note here"></textarea>
+      <button id="save">Save note</button>
+    </div>
+   
+    <div id="count">
+      <h2>Contador</h2>
+    <button id="button">click here</button>
+    <span id="count">0</span>
+    </div>
+    <script src="../index.js"></script>
+  </body>
+</html>
